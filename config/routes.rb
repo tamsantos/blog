@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'pages/about', todo: 'pages#about'
 
   root 'pages#home'
+  resources :articles
 end
